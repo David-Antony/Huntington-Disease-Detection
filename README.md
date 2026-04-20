@@ -69,4 +69,6 @@ text
 ├── train.py                     # Initial base Training Routine
 └── train2.py                    # Advanced Training Routine (Full Quantum Stack)
 ⚠️ Medical Disclaimer
-This AI system and the accompanying codebase are provided strictly for research and educational purposes. They are not FDA-approved and should NOT be used as a substitute for professional medical diagnosis. Always consult with a qualified neurologist or healthcare provider regarding Huntington's Disease.
+This AI system and the accompanying codebase are provided strictly for research and educational purposes.
+They are not FDA-approved and should NOT be used as a substitute for professional medical diagnosis.
+Always consult with a qualified neurologist or healthcare provider regarding Huntington's Disease.
