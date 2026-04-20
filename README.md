@@ -50,3 +50,23 @@ A production-ready Web App is built alongside the core model, crafted natively f
 git clone https://github.com/David-Antony/Huntington-Disease-Detection.git
 cd Huntington-Disease-Detection/hf_space
 pip install -r requirements.txt
+
+2. Launch the Application:
+
+bash
+python app.py
+3. Interact: Navigate to http://localhost:7860 locally to interact with the QuantumNeuro dashboard and upload MRI scans.
+
+📁 Repository Structure
+text
+├── hf_space/                    # Real-time Web App Application 
+│   ├── app.py                   # Production inference server
+│   ├── Dockerfile               # App Containerization definition
+│   ├── requirements.txt         # Production dependencies
+│   ├── static/                  # Compiled JS and custom CSS stylesheets
+│   └── templates/               # Web Application views (index.html)
+├── trainedmodel_file/           # Persisted best model Checkpoints (.pth)
+├── train.py                     # Initial base Training Routine
+└── train2.py                    # Advanced Training Routine (Full Quantum Stack)
+⚠️ Medical Disclaimer
+This AI system and the accompanying codebase are provided strictly for research and educational purposes. They are not FDA-approved and should NOT be used as a substitute for professional medical diagnosis. Always consult with a qualified neurologist or healthcare provider regarding Huntington's Disease.
